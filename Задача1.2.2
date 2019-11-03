@@ -1,9 +1,0 @@
-factorial = int( input("общее кол-во команд ") )
-fact2 = factorial - 3
-def fact(n):
-if n == 0:
-return 1
-else:
-return n * fact(n-1)
-print("количесвто вариантов распределения по всем местам = ", str(fact(factorial)) )
-print("количесвто вариантов распределения по первым 3м местам = ", str(fact(factorial) / fact(fact2)) )
